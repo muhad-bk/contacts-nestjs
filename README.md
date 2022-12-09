@@ -81,3 +81,8 @@ npx prisma db seed
 # Generate Prisma Services 
 npx nest generate module prisma
 npx nest generate service prisma
+# create resource contact
+npx nest generate resource 
+ -- contacts
+ -- REST API
+ -- YES
