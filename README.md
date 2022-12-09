@@ -77,3 +77,7 @@ npx prisma migrate dev --name "init"
 
 ## Seed The DataBase
 npx prisma db seed
+
+# Generate Prisma Services 
+npx nest generate module prisma
+npx nest generate service prisma
