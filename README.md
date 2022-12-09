@@ -71,3 +71,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Migrating The DataBase 
+npx prisma migrate dev --name "init"
+
+## Seed The DataBase
+npx prisma db seed
